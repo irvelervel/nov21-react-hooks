@@ -33,7 +33,7 @@ const App = () => {
         <button onClick={() => setCount(count - 1)}>-</button>
         <button onClick={() => setShow(!show)}>CLICK ME?</button>
         {show && <p>SECRET MESSAGE</p>}
-        <Lifecycle />
+        <Lifecycle count={count} />
       </header>
     </div>
   )
